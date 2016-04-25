@@ -1,0 +1,11 @@
+.cart-contents:before{
+    font-family:FontAwesome;
+    content: "\f07a";
+    font-size:28px;
+    margin-top:10px;
+    font-style:normal;
+    font-weight:400;
+    padding-right:5px;
+    vertical-align: bottom;
+}
+.cart-contents:hover {text-decoration: none}
