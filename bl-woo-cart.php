@@ -39,3 +39,6 @@ function bl_woo_cart_scripts() {
     wp_enqueue_script( 'fontawesome.min.css', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css');
 }
 add_action( 'wp_enqueue_scripts', 'bl_woo_cart_scripts' );
+
+// Add shortcode support to menu items
+add_filter('wp_nav_menu_items', 'do_shortcode');
